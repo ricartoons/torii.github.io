@@ -29,7 +29,7 @@ body{background: #ccc; display: flex;}
 #examine-modal__body .col-md-5 p{ overflow-y: auto}
 
 /* Responsivity - mobile*/
-@media(max-width:768px){
+@media(max-width: 768px){
     #container{flex-direction: column; width: 95%; height: 95%; margin: 2vh auto;}
     #container-main{ width: 100%; height: 78%;}
     #container-canvas{ width: 100%;height: 60%}
