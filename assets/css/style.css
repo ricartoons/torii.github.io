@@ -1,0 +1,31 @@
+*{padding: 0; margin: 0; }
+html, body{  height: 100%; width: 100%;}
+body{background: #ccc; display: flex;}
+#container{ border: 1px solid #000; border-radius: 5px; width: 70%; max-width: 1140px;height: 90%; max-height: 800px; display: flex; margin: 5vh auto; background: url('../image/bgContainer.jpg') center 50px; background-size: cover; overflow: hidden}
+    #container-main{display: flex; flex-wrap: wrap; width: 70%; height: 100%;box-shadow: 20px 0px 30px #000; z-index: 2;}
+        #container-canvas{ height: 70%; display: flex; flex: 1 100% }
+        #container-action{ height: 30%; display: flex; flex: 1 100%; flex-wrap: wrap; outline: initial }
+    
+    #container-backpack{ background: url('../image/bgBackpack.jpg') center center no-repeat; background-size: cover; width: 30%; height: 100%; display: flex; }
+#examine-modal__body img {max-width: 500px; width: 100%;}
+.modal-header{ border-bottom: 0px solid #ab8c76;}
+.modal-content{ background: #d2b5abd4 }
+.modal-content h1{ text-transform: capitalize; margin-bottom: 15px; }
+.modal-content p{ font-size: 17px; }
+.close{ line-height: 15px; font-size: 40px;}
+.addBlur{filter: blur(8px); -webkit-filter: blur(8px);}
+.help-list{ padding: 0 20px;}
+/* elements */
+.container-command{ width: 100%; display: flex; justify-content: space-around; align-items: center}
+.history{ width: 100%; height: 60%; padding: 10px 20px; font-size: 18px; overflow-y: auto; color: #dc9898; line-height: 21px}
+.command{ width: 75%; height: 35px; display: block;font-size: 16px; padding: 0 15px; outline: initial;background: rgba(0, 0, 0, 0.5 ); border: 0; border-radius: 5px; color: #ccc; letter-spacing: 0.4px; }
+.action{ width: 20%; height: 36px; margin-top: -11px;outline: initial;border: 1px solid #441611;background: #671f18; color: rgba(255,255,255,.8); font-size: 18px; font-style: italic; border-radius: 5px; text-shadow: 1px 1px 2px #000; box-shadow: 0 6px 0 #441611 }
+.action:hover{ cursor: pointer;   }
+.action:hover:active{ box-shadow: 0 0px 0 #441611; margin-top: 0 }
+.scenario{ width: 100%; }
+.backpack {width: 100%;list-style: none;display: flex;flex-direction: row;justify-content: space-around;z-index: 3;flex-wrap: wrap;align-content: flex-start;}
+.backpack li{width: 30%;height: 15%;margin: 2%;border: 5px solid #ffbb00;padding: 5px;font-size: 15px;color:#ffbb00;background: rgba(0,0,0,.5); display: flex; flex-direction: column; justify-content: space-around; align-items: center; align-content: center}
+.backpack li img{max-width: 45px; }
+#examine-modal__body .col-md-5 p{ overflow-y: auto}
+/* Responsivity - desk*/
+

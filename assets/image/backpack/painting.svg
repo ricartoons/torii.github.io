@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="360px" height="232.5px" viewBox="0 0 360 232.5" enable-background="new 0 0 360 232.5" xml:space="preserve">
+<rect fill="#FFFBDB" width="360" height="234"/>
+<g>
+	<g>
+		<defs>
+			<polyline id="SVGID_1_" points="0,-96 0,234 360,234 360,-96 			"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" d="M69.551,0H6C2.688,0,0,2.688,0,6v222c0,3.312,2.688,6,6,6l0,0h348c3.313,0,6-2.688,6-6V6
+			c0-3.312-2.688-6-6-6h-63.551 M273.313,0H86.711 M12,12h336v210H12V12z M12,12"/>
+	</g>
+	<path d="M330,24H30c-3.312,0-6,2.688-6,6v174c0,3.312,2.688,6,6,6h300c3.313,0,6-2.688,6-6V30C336,26.688,333.313,24,330,24L330,24
+		z M324,36v75.516l-67.758-67.758c-2.344-2.344-6.141-2.344-8.484,0L162,129.516l-43.758-43.758c-2.344-2.344-6.14-2.344-8.484,0
+		L36,159.516V36H324z M36,176.484l78-78l88.758,88.758c2.344,2.344,6.141,2.344,8.484,0L234,164.484L267.516,198H36V176.484z
+		 M284.484,198l-46.242-46.242c-2.344-2.344-6.141-2.344-8.484,0L207,174.516L170.484,138L252,56.484l72,72V198H284.484z
+		 M284.484,198"/>
+</g>
+</svg>
