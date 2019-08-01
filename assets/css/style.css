@@ -29,13 +29,13 @@ body{background: #ccc; display: flex;}
 #examine-modal__body .col-md-5 p{ overflow-y: auto}
 
 /* Responsivity - mobile*/
-@media(max-width:768px){
-    #container{flex-direction: column; width: 95%; height: 95%; margin: 2vh auto;}
-    #container-main{ width: 100%; height: 78%;}
-    #container-canvas{ width: 100%;height: 60%}
-    #container-action{ width: 100%; height: 40%}
-    #container-backpack{ width: 100%;height: 22%}
-    .history{ font-size: 16px}
-    .backpack{ overflow-y: auto; }
-    .backpack li{ width: 27%; height: 93%;margin: 1%;}
+@media (max-width: 768px){
+    #container{flex-direction: column!important; width: 95%!important; height: 95%!important; margin: 2vh auto!important;}
+    #container-main{ width: 100%!important; height: 78%!important;}
+    #container-canvas{ width: 100%!important;height: 60%!important}
+    #container-action{ width: 100%!important; height: 40%!important}
+    #container-backpack{ width: 100%!important;height: 22%!important}
+    .history{ font-size: 16px!important}
+    .backpack{ overflow-y: auto!important; }
+    .backpack li{ width: 27%!important; height: 93%!important;margin: 1%!important;}
 }
